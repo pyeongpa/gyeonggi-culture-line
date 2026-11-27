@@ -833,4 +833,14 @@ header{border-bottom:0!important;background:#fff!important; padding-bottom:8px!i
 .map-wrap>.toolbar .search{grid-column:1/-1!important;width:100%!important;height:42px!important;padding:0 12px!important;border-radius:10px!important}
 .map-wrap>.toolbar .search::placeholder{font-size:13px!important;letter-spacing:0!important}
 }
+</style><style id="v56-culture-track">
+.station-place-list,.station-program-list{padding-left:24px;gap:6px;}
+.station-place-link,.station-program-link{position:relative;overflow:visible!important;border-left:1px solid #e9e9ed!important;background:#fff!important;}
+.station-place-link:before,.station-program-link:before{content:"";position:absolute;left:-18px;top:-7px;bottom:-7px;width:3px;background:var(--line-color);pointer-events:none;}
+.station-place-link:after,.station-program-link:after{content:"";position:absolute;left:-22px;top:50%;transform:translateY(-50%);width:11px;height:11px;border:2px solid #242631;border-radius:50%;background:#fff;box-sizing:border-box;pointer-events:none;}
+.station-line-section .station-place-list:first-of-type .station-place-link:first-child:before,.station-place-list .station-place-link:first-child:before,.station-line-section:not(:has(.station-place-list)) .station-program-link:first-child:before{top:50%;}
+.station-line-section:not(:has(.station-program-list)) .station-place-link:last-child:before,.station-program-link:last-child:before{bottom:50%;}
+.station-line-section:has(.station-place-list) .station-program-link:first-child:before{top:-10px;}
+.place,.program-card{border-left:1px solid #e9e9ed!important;}
+@media(max-width:900px){header{padding-top:calc(19px + env(safe-area-inset-top))!important}header .foundation-logo{height:54px!important;max-width:54px!important}.map-wrap>.toolbar .filter{display:flex!important;align-items:center!important;justify-content:center!important;gap:4px!important;line-height:1.2!important}.map-wrap>.toolbar .filter .dot{margin:0!important;flex:none!important;align-self:center!important;vertical-align:initial!important;}}
 </style></body></html>
